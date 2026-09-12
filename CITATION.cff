@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or its accompanying experimental results, please cite it using the metadata below."
+title: "Federated Label Verification: Reproducibility Code and Experimental Results"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "Bose"
+    given-names: "Avijit"
+    orcid: "https://orcid.org/0000-0002-3372-5345"
+    affiliation: "Department of Computer Science & Engineering, MCKV Institute of Engineering, Liluah, Howrah, West Bengal, India"
+  - family-names: "Sarkar"
+    given-names: "Pradyut"
+    orcid: "https://orcid.org/0000-0001-6139-307X"
+    affiliation: "Department of Computer Science & Engineering, MAKAUT, Kalyani, West Bengal, India"
+  - family-names: "Jana"
+    given-names: "Premananda"
+    orcid: "https://orcid.org/0000-0001-5171-1273"
+    affiliation: "Netaji Subhas Open University, Kalyani, West Bengal, India"
+repository-code: "https://github.com/esobtiziva/federated-label-verification"
+keywords:
+  - "federated learning"
+  - "label noise"
+  - "human-in-the-loop learning"
+  - "crowd intelligence"
+  - "data heterogeneity"
+  - "trustworthy federated learning"
+abstract: >-
+  Reproducibility code and experimental results supporting the study
+  "Label-Induced Bias and Verification-Cost Trade-offs in Federated Learning:
+  A Budget-Constrained Crowd-Intelligence Approach." The repository contains
+  federated learning experiments under IID and non-IID partitioning, synthetic
+  training-label corruption, and budget-constrained simulated verification.
