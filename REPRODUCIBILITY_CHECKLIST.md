@@ -1,0 +1,26 @@
+# Reproducibility checklist
+
+- [x] Fixed 80/20 train/test split with random_state=42
+- [x] StandardScaler fitted on training data only
+- [x] IID and median-income-sorted contiguous non-IID partitions
+- [x] 2-client and 5-client configurations
+- [x] 30 communication rounds
+- [x] 3 local epochs per round
+- [x] SGDRegressor: constant LR, eta0=0.0001, alpha=1e-5, average=False
+- [x] 30% training-target corruption
+- [x] gamma=0.5 and gamma=1.0 final severities
+- [x] Noise/Crowd paired on corrupted indices and Gaussian perturbations
+- [x] Candidate selection by observable absolute residual only
+- [x] Hidden corruption mask excluded from ranking
+- [x] Clean reviews consume verification budget
+- [x] No repeated review of the same sample
+- [x] Global lifetime B=100
+- [x] 50/client for 2 clients; 20/client for 5 clients
+- [x] Warm-up 3 rounds (2 clients), 5 rounds (5 clients)
+- [x] Corrected targets enter ordinary local training immediately
+- [x] Seeds 1-5
+- [x] Stored five-seed outputs included
+- [ ] Add software license before public release
+- [ ] Add complete author/citation metadata before public release
+- [ ] Create GitHub v1.0.0 release
+- [ ] Archive v1.0.0 in Zenodo and add DOI
