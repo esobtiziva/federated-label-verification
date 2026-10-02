@@ -116,4 +116,4 @@ The stored result files are the authoritative outputs corresponding to the five-
 ## License and citation
 The source code in this repository is released under the MIT License. Citation metadata are provided in 'CITATION.cff'.
 
-A permanent Zenodo DOI will be added after the version 1.0.0 GitHub release is archived.
+The version 1.0.0 reproducibility package is permanently archived in Zenodo: https://doi.org/10.5281/zenodo.23109763
