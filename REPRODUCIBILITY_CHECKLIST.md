@@ -1,4 +1,4 @@
-# Reproducibility checklist
+ Reproducibility checklist
 
 - [x] Fixed 80/20 train/test split with random_state=42
 - [x] StandardScaler fitted on training data only
@@ -20,7 +20,7 @@
 - [x] Corrected targets enter ordinary local training immediately
 - [x] Seeds 1-5
 - [x] Stored five-seed outputs included
-- [ ] Add software license before public release
-- [ ] Add complete author/citation metadata before public release
+- [x ] Add software license before public release
+- [ x] Add complete author/citation metadata before public release
 - [ ] Create GitHub v1.0.0 release
 - [ ] Archive v1.0.0 in Zenodo and add DOI
