@@ -22,5 +22,5 @@
 - [x] Stored five-seed outputs included
 - [x ] Add software license before public release
 - [ x] Add complete author/citation metadata before public release
-- [ ] Create GitHub v1.0.0 release
-- [ ] Archive v1.0.0 in Zenodo and add DOI
+- [ x] Create GitHub v1.0.0 release
+- [ x] Archive v1.0.0 in Zenodo and add DOI
