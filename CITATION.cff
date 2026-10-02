@@ -3,6 +3,8 @@ message: "If you use this software or its accompanying experimental results, ple
 title: "Federated Label Verification: Reproducibility Code and Experimental Results"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.23109763"
+date-released: 2026-10-02
 authors:
   - family-names: "Bose"
     given-names: "Avijit"
