@@ -111,8 +111,9 @@ The California Housing dataset is obtained through scikit-learn. The repository 
 
 ## Reproducibility note
 
-The stored result files are the authoritative outputs corresponding to the five-seed final experiment. Calibration, exploratory sensitivity runs, and earlier three-seed validation artifacts are intentionally excluded from this release to avoid ambiguity about which results support the manuscript.
+The stored result files are the authoritative outputs corresponding to the five-seed final experiment. Calibration, exploratory sensitivity runs, and earlier three-seed validation artifacts are intentionally excluded from this release to avoid ambiguity about which results support the manuscript. 'selected_config.json' records the configuration-selection stage and is retained for provenance; the files under 'results/' contain the authoritative outputs corresponding to the final experiments reported in the manuscript.
 
 ## License and citation
+The source code in this repository is released under the MIT License. Citation metadata are provided in 'CITATION.cff'.
 
-A software license and final citation metadata should be added before public release. The Zenodo DOI should be inserted here after the GitHub release is archived.
+A permanent Zenodo DOI will be added after the version 1.0.0 GitHub release is archived.
